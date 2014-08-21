@@ -1,0 +1,242 @@
+/* ============================================================================================== 
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html 
+is available at http://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
+
+/* general styles */
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* padded section */
+    .pad-section {
+      padding: 50px 0;
+    }
+    .pad-section img {
+      /*width: 100%;*/
+    }
+
+  /* vertical-centered text */
+    .text-vcenter {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .text-vcenter h1 {
+      font-size: 4.5em;
+      font-weight: 700;
+      margin: 0;
+      padding: 0;
+    }
+
+/* Header */
+
+@media only screen and (max-width: 870px){
+  .logoholder {
+  height: 100%;
+  width: auto;
+  height: auto;
+  max-height: 106px;
+  }
+}
+#logosymbol {
+-webkit-animation-name: spin;
+-webkit-animation-duration: 12000ms;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-moz-animation-name: spin;
+-moz-animation-duration: 12000ms;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+-ms-animation-name: spin;
+-ms-animation-duration: 12000ms;
+-ms-animation-iteration-count: infinite;
+-ms-animation-timing-function: linear;
+}
+@-webkit-keyframes spin {
+        from { -webkit-transform: rotate(0deg); }
+        to { -webkit-transform: rotate(360deg); }
+    }
+
+    @-moz-keyframes spin {
+        from { -moz-transform: rotate(0deg); }
+        to { -moz-transform: rotate(360deg); }
+    }
+
+    @-ms-keyframes spin {
+        from { -ms-transform: rotate(0deg); }
+        to { -ms-transform: rotate(360deg); }
+    }
+
+
+.navbar-default .navbar-brand img.logoholder{
+height: 3em;
+}
+
+
+/* Social Nav Buttons */
+  .navbar-default .navbar-toggle .icon-bar.n{
+  background-color: transparent;!important;
+  }
+  .social-btn-g{
+  background: url("../img/g.png") -34px -32px;
+  background-image: url(../img/g.png);
+  background-position-x: -34px;
+  background-position-y: -32px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  }
+    .social-btn-t{
+  background: url("../img/t.png") -34px -32px;
+  background-image: url(../img/t.png);
+  background-position-x: -34px;
+  background-position-y: -32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+    .social-btn-f{
+  background: url("../img/f.png") -34px -32px;
+  background-image: url(../img/f.png);
+  background-position-x: -34px;
+  background-position-y: -32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  .social-btn-in{
+  background: url("../img/in.png") -34px -32px;
+  background-image: url(../img/in.png);
+  background-position-x: -26px;
+  background-position-y: -32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  /* Phone */
+  .social-btn-c{
+  background: url("../img/phone.png") -34px -32px;
+  background-image: url(../img/phone.png);
+  background-position-x: -34px;
+  background-position-y: -32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 21px 24px;
+  }
+
+
+
+
+
+/* additional sections */
+  #home {
+    background: url(../img/slider.gif) no-repeat center center fixed;
+    background-size: 100% 100%; 
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+/* */
+
+
+
+#about {
+  background: url(../img/bg/about.jpg) no-repeat center center fixed;
+  background-size: 50% 50%;
+  display: table;
+  height: 70%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  #about div.head{
+    bottom: 0;
+    left: 0;
+    width: auto;
+    background: transparent;
+  }
+  #about div.head h3{
+    background: #fff;
+    color: #fff;
+    height: auto;
+    width: auto;
+    max-width: 700px;
+    background-color: rgba(0,0,0,.4);
+    font-size: 2.5em;
+    padding: 20px 40px;
+    border: 20px;
+    float: none;
+    position: absolute;
+    top: 3em;
+    left: 0em;
+    text-shadow: 1px 1px 1px #DCDCDC;
+    text-transform: uppercase;
+    font-family: 'Lato', Verdana, sans-serif;
+    font-weight: 400;
+  }
+
+  /* 
+
+  */
+/* Contact*/
+
+
+
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+#information {
+ /* background: url(../img/bg/about.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+Window size: 691 x 728
+Viewport size: 675 x 615
